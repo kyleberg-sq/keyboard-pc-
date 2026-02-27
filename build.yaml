@@ -4,3 +4,5 @@ include:
     shield: custom_split_left
   - board: nice_nano@2.0.0
     shield: custom_split_right
+  - board: nice_nano@2.0.0
+    shield: settings_reset
