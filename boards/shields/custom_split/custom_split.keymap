@@ -1,10 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-
 / {
     keymap {
         compatible = "zmk,keymap";
-
         default_layer {
             // Layer 0 — your base layout
             bindings = 
@@ -14,7 +12,6 @@
 &kp TAB   &kp SPACE &kp LGUI                           &to 1  &kp SEMI &kp SQT
             >;
         };
-
         numsym_layer {
             // Layer 1 — Numbers & Symbols. fn here jumps to layer 2.
             bindings = 
@@ -24,7 +21,6 @@
 &trans    &trans    &trans                             &to 2     &trans    &trans
             >;
         };
-
         fn_layer {
             // Layer 2 — Function keys & Navigation. fn here returns to base.
             bindings = 
