@@ -3,20 +3,14 @@ if SHIELD_CUSTOM_SPLIT_LEFT
 config ZMK_KEYBOARD_NAME
     default "Custom Split"
 
-config ZMK_SPLIT
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif
+endif # SHIELD_CUSTOM_SPLIT_LEFT
 
 if SHIELD_CUSTOM_SPLIT_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Custom Split"
 
-config ZMK_SPLIT
-    default y
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default n
-
-endif
+endif # SHIELD_CUSTOM_SPLIT_RIGHT
