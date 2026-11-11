@@ -1,1 +1,6 @@
 #include "custom_split.dtsi"
+
+// The right half's 5 columns sit after the left half's 5 in the keymap.
+&default_transform {
+    col-offset = <5>;
+};
